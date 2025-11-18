@@ -166,7 +166,3 @@ def assign_projects(people_file, projects_file, output_file="final_assignments.x
     print(f" • 'Utilization by Role' tab now shows negative Shortfall Days → instant bottleneck detection!")
 
     return assignments_df
-
-
-if __name__ == "__main__":
-    assign_projects("people_projects.xlsx", "people_projects.xlsx", "final_assignments.xlsx")
